@@ -1,6 +1,15 @@
 //Eyy maalam na ahaha//
 console.log('Hello World');
 
+let name = 'Tin';
+console.log(name);
+
+let firstName = 'Tin'
+let lastName = 'Arroyo';
+let age = 18;
+let isApproved = true;
+
+
 function myFunction() {
     document.getElementById("demo").innerHTML = 
     "Oh Nooo Fa-keeee ahahahha";
