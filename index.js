@@ -1,13 +1,21 @@
 //Eyy maalam na ahaha//
 console.log('Hello World');
 
-let name = 'Tin';
-console.log(name);
-
-let firstName = 'Tin'
+let firstName = 'Tin';
+console.log(firstName);
 let lastName = 'Arroyo';
+console.log (lastName);
 let age = 18;
+console.log (age);
 let isApproved = true;
+console.log (isApproved);
+
+let person = {
+    name: 'Tin',
+    age: 18
+};
+
+console.log(person)
 
 
 function myFunction() {
