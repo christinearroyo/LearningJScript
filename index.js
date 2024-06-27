@@ -12,3 +12,8 @@ b = 6;
 c = a + b;
 document.getElementById("demo1").innerHTML = c;
 
+function myButton1() {
+    document.getElementById("demo2").innerHTML = "Hello Friend!";
+    document.getElementById("demo3").innerHTML = "How's it going?";
+}
+
