@@ -34,3 +34,15 @@ function myButton1() {
     document.getElementById("demo3").innerHTML = "How's it going?";
 }
 
+var x = 25;
+let y = 50;
+const z = x + y;
+
+const cars = ["BMW","Honda","Suzuki","Toyota"]
+cars[2] = "Audi";
+cars.push("Ferrari");
+
+document.getElementById("demo4").innerHTML = cars;
+
+let f = 5;
+let d = (250 + 100) * f;
