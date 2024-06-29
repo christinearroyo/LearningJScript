@@ -46,3 +46,12 @@ document.getElementById("demo4").innerHTML = cars;
 
 let f = 5;
 let d = (250 + 100) * f;
+
+const date = new Date ("2024-03-25");
+
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+
+let result = myFunction(4, 3);
+document.getElementById("demo5").innerHTML = result;
