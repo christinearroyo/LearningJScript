@@ -55,3 +55,13 @@ function myFunction(p1, p2) {
 
 let result = myFunction(4, 3);
 document.getElementById("demo5").innerHTML = result;
+
+const girl = {
+    firstName: "Tin",
+    lastName: "Arroyo",
+    age: 18,
+    eyeColor: "black"
+};
+
+document.getElementById("demo6").innerHTML = 
+person.firstName + " is " + person.age + " years old.";
