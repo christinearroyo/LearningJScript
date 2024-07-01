@@ -65,3 +65,4 @@ const girl = {
 
 document.getElementById("demo6").innerHTML = 
 person.firstName + " is " + person.age + " years old.";
+
