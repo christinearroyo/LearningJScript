@@ -19,8 +19,7 @@ console.log(person)
 
 
 function myFunction() {
-    document.getElementById("demo").innerHTML = 
-    "Oh Nooo Fa-keeee ahahahha";
+    document.getElementById("demo").innerHTML = "Fa-ke.";
 }
 
 let a, b, c;
@@ -66,3 +65,6 @@ const girl = {
 document.getElementById("demo6").innerHTML = 
 person.firstName + " is " + person.age + " years old.";
 
+function myButton2() {
+    document.getElementById("demo8").innerHTML = "Its Gone.";
+}
