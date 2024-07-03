@@ -68,3 +68,6 @@ person.firstName + " is " + person.age + " years old.";
 function myButton2() {
     document.getElementById("demo8").innerHTML = "Its Gone.";
 }
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo9").innerHTML = text.length;
