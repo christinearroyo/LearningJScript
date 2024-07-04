@@ -71,3 +71,7 @@ function myButton2() {
 
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.getElementById("demo9").innerHTML = text.length;
+
+let answer1 = "yea";
+let answer2 = "yeayea";
+let answer3 = "yeayeayea";
