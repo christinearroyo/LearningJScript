@@ -18,9 +18,10 @@ let person = {
 console.log(person)
 
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Fa-ke.";
+function mySquare() {
+    document.getElementById("demo").innerHTML = "Oh Nooo FAAA-KEEEEE!!!!!";
 }
+
 
 let a, b, c;
 a = 5;
