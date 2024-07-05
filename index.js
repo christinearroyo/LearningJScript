@@ -55,12 +55,16 @@ function myFunction(p1, p2) {
 let result = myFunction(4, 3);
 document.getElementById("demo5").innerHTML = result;
 
+//Object
 const girl = {
     firstName: "Tin",
     lastName: "Arroyo",
     age: 18,
-    eyeColor: "black"
-};
+    eyeColor: "black",
+    sayHello: function(){console.log("Hi! Ako si Tin!")},
+}
+
+girl.sayHello();
 
 document.getElementById("demo6").innerHTML = 
 person.firstName + " is " + person.age + " years old.";
