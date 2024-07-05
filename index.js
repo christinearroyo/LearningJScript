@@ -115,5 +115,12 @@ myPen.model = "Black Ballpen";
 
 console.log(myPen.make);
 
+//Function
+function greet(name) {
+    console.log(" Hello " + name);
+}
+
+greet("User");
+
 
  
