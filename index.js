@@ -75,3 +75,45 @@ document.getElementById("demo9").innerHTML = text.length;
 let answer1 = "yea";
 let answer2 = "yeayea";
 let answer3 = "yeayeayea";
+
+//Boolean
+var data = true;
+
+if (data) {
+    console.log("Mahal ka niya");
+} else {
+    console.log("Di ka niya Mahal")
+}
+
+//null
+var n = null
+console.log(n * 50)
+
+//undefined
+var e;
+console.log(e + 20)
+
+//number
+var num = 3.6;
+var ber = 7.4;
+console.log(num + ber);
+
+//String
+var name = "Neng";
+console.log("Hi Im the youngest, My Name is " + name);
+
+//Symbol
+var sym1 = Symbol("yea");
+var sym2 = Symbol("yea");
+console.log(sym1 === sym2);
+console.log(String(sym1));
+
+//Object
+var myPen = new Object();
+myPen.make = "Faber Castle";
+myPen.model = "Black Ballpen";
+
+console.log(myPen.make);
+
+
+ 
