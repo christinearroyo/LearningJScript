@@ -67,6 +67,18 @@ const girl = {
 
 girl.sayHello();
 
+//Object Properties
+const she = {
+    firstName: "Alexandra",
+    lastName: "Ramos",
+    age: 21,
+    eyeColor: "blue"
+  };
+  
+  delete she.age;
+
+  document.getElementById("demo11").innerHTML = she.firstName + " is " + she.age + " years old.";
+
 document.getElementById("demo6").innerHTML = 
 person.firstName + " is " + person.age + " years old.";
 
