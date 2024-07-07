@@ -77,7 +77,7 @@ const she = {
   
   delete she.age;
 
-  document.getElementById("demo11").innerHTML = she.firstName + " is " + she.age + " years old.";
+document.getElementById("demo11").innerHTML = she.firstName + " is " + she.age + " years old.";
 
 document.getElementById("demo6").innerHTML = 
 person.firstName + " is " + person.age + " years old.";
@@ -139,5 +139,44 @@ function greet(name) {
 
 greet("User");
 
+//Object Method
+const mouse = {
+    version: "VX7",
+    brand: "Fantech",
+    dpi: 800,
+    fullName: function() {
+      return this.version + " " + this.brand;
+    }
+  };
 
- 
+  document.getElementById("demo12").innerHTML = mouse.version + mouse.brand;
+
+  //Object Display
+  const guy = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  // Create an Array (hanay hanay)
+  const myArray = Object.values(guy);
+  
+  // Display the Array
+  document.getElementById("demo13").innerHTML = myArray;
+
+  //Object Construction
+function Men(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+  }
+  
+  // Create a Person object
+  const myFather = new Men("Alex", "Hayashi", 50, "blue");
+  
+  // Display age
+  document.getElementById("demo14").innerHTML =
+  "My father is " + myFather.age + "."; 
+  
+
