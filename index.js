@@ -179,4 +179,9 @@ function Men(first, last, age, eye) {
   document.getElementById("demo14").innerHTML =
   "My father is " + myFather.age + "."; 
   
+  //JS String Primitive
+  const women = ("I Like to Code");
+  
+  //JS Object
+  const boy = new String ("I'd prefer to Draw");
 
