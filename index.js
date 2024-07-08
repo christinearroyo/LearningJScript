@@ -182,6 +182,11 @@ function Men(first, last, age, eye) {
   //JS String Primitive
   const women = ("I Like to Code");
   
-  //JS Object
-  const boy = new String ("I'd prefer to Draw");
+//JS Object
+const boy = new String ("I'd prefer to Draw");
 
+//String
+let j = "javascript";
+let k = new String ("node");
+
+document.getElementById("demo15").innerHTML = typeof j + "<br>" +typeof k;
