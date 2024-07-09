@@ -190,3 +190,9 @@ let j = "javascript";
 let k = new String ("node");
 
 document.getElementById("demo15").innerHTML = typeof j + "<br>" +typeof k;
+
+//String Method
+const her = "Hanna";
+let letter = her.at(2);
+
+document.getElementById("demo16").innerHTML = letter;
