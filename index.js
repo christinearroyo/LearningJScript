@@ -199,3 +199,6 @@ document.getElementById("demo16").innerHTML = letter;
 
 let m = Number.MAX_VALUE
 document.getElementById("demo17").innerHTML = m;
+
+let n = Number.MIN_VALUE
+document.getElementById("demo18").innerHTML = n;
