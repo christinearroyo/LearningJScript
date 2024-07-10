@@ -196,3 +196,6 @@ const her = "Hanna";
 let letter = her.at(2);
 
 document.getElementById("demo16").innerHTML = letter;
+
+let m = Number.MAX_VALUE
+document.getElementById("demo17").innerHTML = m;
