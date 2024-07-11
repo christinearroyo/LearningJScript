@@ -200,5 +200,10 @@ document.getElementById("demo16").innerHTML = letter;
 let m = Number.MAX_VALUE
 document.getElementById("demo17").innerHTML = m;
 
-let n = Number.MIN_VALUE
-document.getElementById("demo18").innerHTML = n;
+let v = Number.MIN_VALUE
+document.getElementById("demo18").innerHTML = v;
+
+const temp = [30,35,40,45,50,55,60];
+let high = temp.findLast(x => x > 45);
+document.getElementById("demo19").innerHTML = "The last temperature was over " + high;
+
