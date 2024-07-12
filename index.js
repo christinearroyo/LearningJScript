@@ -221,3 +221,11 @@ function pindutan2() {
     points.sort(function(a,b){return a - b});
     document.getElementById("demo20").innerHTML = points;
 }
+
+const points2 = [72,23,76,43,96,16];
+document.getElementById("demo21").innerHTML = points2;
+
+function pindutan3() {
+    points2.sort(function(){return 0.5 - Math.random()});
+    document.getElementById("demo21").innerHTML = points2;
+}
