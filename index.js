@@ -210,3 +210,14 @@ temp.sort();
 temp.reverse();
 console.log(temp.sort()+","+ temp.reverse());
 
+const points = [12,54,29,70,88,47,31,69,95];
+document.getElementById("demo20").innerHTML = points;
+
+function pindutan1() {
+    points.sort();
+    document.getElementById("demo20").innerHTML = points;
+}
+function pindutan2() {
+    points.sort(function(a,b){return a - b});
+    document.getElementById("demo20").innerHTML = points;
+}
