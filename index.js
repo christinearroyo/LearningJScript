@@ -229,3 +229,5 @@ function pindutan3() {
     points2.sort(function(){return 0.5 - Math.random()});
     document.getElementById("demo21").innerHTML = points2;
 }
+
+console.log("hi almost 12 am");
