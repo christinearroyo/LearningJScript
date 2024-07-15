@@ -234,4 +234,4 @@ console.log("hi almost 12 am");
 console.log("fiesta ng bukal");
 
 const h = new Date();
-document.getElementById("demo22").innerHTML = h;
+document.getElementById("demo22").innerHTML = h.toDateString();
