@@ -232,3 +232,6 @@ function pindutan3() {
 
 console.log("hi almost 12 am");
 console.log("fiesta ng bukal");
+
+const h = new Date("2006-03-25");
+document.getElementById("demo22").innerHTML = h;
