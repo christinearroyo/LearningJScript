@@ -235,3 +235,5 @@ console.log("fiesta ng bukal");
 
 const h = new Date();
 document.getElementById("demo22").innerHTML = h.toDateString();
+
+console.log("hi");
