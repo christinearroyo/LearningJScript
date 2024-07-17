@@ -237,3 +237,4 @@ const h = new Date();
 document.getElementById("demo22").innerHTML = h.toDateString();
 
 console.log("hi");
+console.log("format");
