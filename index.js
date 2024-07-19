@@ -238,3 +238,13 @@ document.getElementById("demo22").innerHTML = h.toDateString();
 
 console.log("hi");
 console.log("format");
+
+let msec = Date.parse("July 19,2024");
+const l = new Date(msec);
+document.getElementById("demo23").innerHTML = l;
+
+document.getElementById("demo24").innerHTML = Math.PI;
+
+function pindot() {
+    document.getElementById("demo25").innerHTML = Math.floor(Math.random() * 101);
+}
