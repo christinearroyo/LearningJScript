@@ -248,3 +248,23 @@ document.getElementById("demo24").innerHTML = Math.PI;
 function pindot() {
     document.getElementById("demo25").innerHTML = Math.floor(Math.random() * 101);
 }
+
+document.getElementById("demo26").innerHTML = Boolean (25 < 30);
+
+function ageradar(){
+    let age = document.getElementById("age").value;
+    let voteable = (age<18) ? "Too young":"Old enough";
+
+    document.getElementById("demo27").innerHTML = voteable + " to vote.";
+}
+
+const time = new Date().getHours();
+let greeting;
+if (time < 11 ) {
+    greeting = "Good morning Tin";
+} else if (time > 10 >= 20) {
+    greeting = "Good Afternoon";
+} else {
+    greeting = "Good Evening";
+}
+document.getElementById("demo28").innerHTML = greeting;
