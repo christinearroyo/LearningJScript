@@ -268,3 +268,18 @@ if (time < 11 ) {
     greeting = "Good Evening";
 }
 document.getElementById("demo28").innerHTML = greeting;
+
+let word;
+switch (new Date().getDay()) {
+    case 4:
+    case 5:
+        word = "Soon it is Weekend";
+        break;
+    case 0:
+    case 6:
+        word = "It is Weekend";
+        break;
+    default:
+        word = "Looking forward to the Weekend";
+}
+document.getElementById("demo29").innerHTML = word;
