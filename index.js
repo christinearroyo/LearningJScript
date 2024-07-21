@@ -283,3 +283,5 @@ switch (new Date().getDay()) {
         word = "Looking forward to the Weekend";
 }
 document.getElementById("demo29").innerHTML = word;
+
+console.log("bukas")
