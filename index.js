@@ -284,4 +284,5 @@ switch (new Date().getDay()) {
 }
 document.getElementById("demo29").innerHTML = word;
 
-console.log("bukas")
+console.log("bukas");
+console.log("totoo na");
