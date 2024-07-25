@@ -286,3 +286,12 @@ document.getElementById("demo29").innerHTML = word;
 
 console.log("bukas");
 console.log("totoo na");
+
+const nickname = ["Tin","Astrid","Hozumi"];
+
+let term = "";
+for (let o = 0; o < nickname.length; o++) {
+    term += nickname[o] + "<br>";
+}
+
+document.getElementById("demo30").innerHTML = term;
