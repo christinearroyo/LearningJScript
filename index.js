@@ -295,3 +295,6 @@ for (let o = 0; o < nickname.length; o++) {
 }
 
 document.getElementById("demo30").innerHTML = term;
+
+
+
